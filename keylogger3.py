@@ -73,7 +73,7 @@ payload = {
     "embeds": [embed]
 }
 
-webhook = "https://discord.com/api/webhooks/1104508343139172462/5ho_NguxKx7jNGZCl_URTWj-INnrc9tFWXpQWb-1-y5tG5BlE2YOK1XI3bOZJ3NmZYOQ"
+webhook = ""
 headers = {"User-Agent": "Mozilla/5.0"}
 response = requests.post(webhook, headers=headers, json=payload)
 # Define function to send requests in a separate thread
